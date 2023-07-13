@@ -1,6 +1,5 @@
 import { useRef, useState } from 'react';
 import './App.css';
-
 function App() {
   const taskRef = useRef("")
   const [tasks, setTasks] = useState([])
